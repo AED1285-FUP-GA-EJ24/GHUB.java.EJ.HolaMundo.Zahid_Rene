@@ -5,14 +5,14 @@ public class Distancia {
 
     public static void main(String[] args) {
 
-        Scanner leer = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in);
         float V;//Val.Entrada como real
         float T;//Val.Entrada como real
         float D;//Val.Salida como real
         System.out.println("Velocidad en M/S:");
-        V = leer.nextFloat();
+        V = entrada.nextFloat();
         System.out.println("Segundos:");
-        T = leer.nextFloat();     
+        T = entrada.nextFloat();     
         D=V*T;
         System.out.println("Distancia: "+D);
 
